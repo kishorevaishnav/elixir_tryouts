@@ -11,4 +11,4 @@ end
 
 list = IO.stream(:stdio, :line) 
   |> Enum.map(&String.strip/1)
-Reverser.reverse([1,2,3,4,5,6])
+Reverser.reverse(list)
